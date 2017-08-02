@@ -1,0 +1,26 @@
+
+
+
+	     	     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	     	     !!                                                             !!
+	     	     !!                   !! FCIS says HELLO !!                     !!
+	     	     !!                                                             !!
+	     	     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+Physical memory: 524288K available, base = 640K, extended = 523264K
+Max Envs = 1379
+check_boot_pgdir() succeeded!
+
+Welcome to the FOS kernel command prompt!
+Type 'help' for a list of commands.
+FOS> nextfit
+User Heap placement strategy is now NEXT FIT
+FOS> urun tnf 1000
+
+Environment Id= 4096
+[tnf 4096] This test has THREE cases. A pass message will be displayed after each one.
+[tnf 4096] user panic in (PROGRAM NAME UNKNOWN) at user/tst_nextfit.c:85: [tnf 4096] Next Fit not working correctly[tnf 4096] 
+FOS> 
